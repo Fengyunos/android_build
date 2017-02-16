@@ -326,7 +326,7 @@ function setpaths()
         if [ ! -d "$CCACHE_DIR" ]; then
           mkdir -p "$CCACHE_DIR"
         fi
-        BASE_CCACHE_DIR=$(echo ${CCACHE_DIR%%/cm_*})
+        BASE_CCACHE_DIR=$(echo ${CCACHE_DIR%%/XOS_7.1*})
         export CCACHE_DIR=$BASE_CCACHE_DIR/$product
         export CCACHE_BASEDIR=$ANDROID_BUILD_TOP
         if [ -z "$CCACHE_SIZE" ]; then

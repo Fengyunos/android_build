@@ -54,6 +54,7 @@ PRODUCT_PACKAGES += \
     SharedStorageBackup \
     StorageManager \
     Telecom \
+    PhoneLocationProvider \
     TeleService \
     VpnDialogs \
     MmsService
