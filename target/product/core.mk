@@ -33,7 +33,6 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
     Exchange \
     ExternalStorageProvider \
@@ -41,7 +40,6 @@ PRODUCT_PACKAGES += \
     InputDevices \
     KeyChain \
     Keyguard \
-    LatinIME \
     Launcher3 \
     ManagedProvisioning \
     MtpDocumentsProvider \
